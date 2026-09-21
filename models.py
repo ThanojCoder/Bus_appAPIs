@@ -28,6 +28,10 @@ class BusTypeEnum(str, enum.Enum):
     sleeper = "sleeper"
     ac = "ac"
     non_ac = "non_ac"
+    ac_seater = "ac_seater"
+    non_ac_seater = "non_ac_seater"
+    ac_sleeper = "ac_sleeper"
+    volvo_multi_axle = "volvo_multi_axle"
 
 
 class TripStatus(str, enum.Enum):
